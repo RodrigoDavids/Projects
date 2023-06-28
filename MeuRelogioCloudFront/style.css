@@ -1,7 +1,7 @@
 body {
-  font-family: system-ui;
-  background: #f06d06;
-  color: white;
+ font-family: Arial, Helvetica, sans-serif;
+  background-image: linear-gradient(45deg, rgb(111, 232, 119) , rgb(22, 2, 85));
+  color: rgb(255, 255, 255);
   text-align: center;
 }
 
@@ -15,3 +15,5 @@ body {
   font-family: system-ui;
   letter-spacing: 7px;
 }
+
+
