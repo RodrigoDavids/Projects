@@ -10,7 +10,7 @@ Eu sou Rodrigo estudante e desenvolvedor de sistemas e projetos
 * São Paulo , Brasil  
 
 <div align="center"/>
-  <a href="https://github.com/Rodrigodavids">
+  <a href="https://github.com/RodrigoDavids/Projetos/edit/main">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=rodrigodavids&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>
 </div>
 
