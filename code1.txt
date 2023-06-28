@@ -1,0 +1,19 @@
+<script>
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.getRegistrations().then(function (registrations) {
+            for (let registration of registrations) {
+                if (new RegExp('^https://www.farfetch.(com|cn)/$').test(registration.scope)) {
+                    registration.unregister();
+                }
+            }
+        }).catch(function (err) {
+            console.log('Service Worker unregistration failed: ', err);
+        });
+    }
+</script> 
+Concurso 1777 (de 15/02/2019) - 15 acertos
+Uau!!! Você ganharia o prêmio máximo!
+02 04 06 08 10 12 14 15 16 18 19 20 21 24 25 
+
+
+'bin' should be removed from the JAVA_HOME environment variable (C:\Program Files\Java\jdk-14.0.1\bin)

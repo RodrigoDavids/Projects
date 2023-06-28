@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#1C1C1C" >
+
+    <Button
+        android:id="@+id/voltar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:textColor="#FFFFFF"
+        android:onClick="tela1"
+        android:text="Voltar" />
+
+    <Button
+        android:id="@+id/junho"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/voltar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:onClick="tela3"
+        android:textColor="#FFFFFF"
+        android:text="Show em destaque "
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/aerosmith"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:onClick="tela4"
+        android:src="@drawable/aerosmith" />
+
+    <ImageButton
+        android:id="@+id/rodeio"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/aerosmith"
+        android:onClick="tela4"
+        android:layout_marginTop="14dp"
+        android:src="@drawable/rodeio" />
+ 
+</RelativeLayout>

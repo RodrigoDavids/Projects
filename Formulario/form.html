@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <link rel="stylesheet" href="style.css" media="all"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cadastro </title>
+</head>
+<body>
+
+    <div>
+        <h1 id="titulo">Cadastro</h1>
+        <p id="subtitulo"> <strong> Complete suas Informações</strong> </p>
+    </div>
+<form>
+<fieldset class="grupo">
+
+    <div class="campo">
+<label for="nome"> <strong> Nome </strong></labelfor>
+<input type="text" name="nome" id="nome" required>
+   </div>
+
+   <div class="campo">
+<label for="sobrenome"> <strong> SobreNome </strong></label>
+<input type="text" name="sobrenome" id="sobrenome" required>
+   </div>
+</fieldset>
+<div class="campo ">
+<label for="email"> <strong> E-mail</strong></label>
+<input type="email" name="email" id="email" required >
+</div>
+<div>
+    <label> <strong> Desenvolve em ?</strong></label>
+    <label>
+    <input type="radio" name="devweb" id="frontend">Front-End
+    </label>
+    <label>
+        <input type="radio" name="devweb" id="backend" checked>Back-End
+        </label>
+        <label>
+            <input type="radio" name="devweb" id="fullstacks">Full-Stacks
+            </label>
+    </div>
+     <div>
+        <label> <strong> Nivel de Conhecimento</strong> </label>
+        <select id="nivel">
+<option value="">Selecione</option>
+            <option value="jr">Junior</option>
+<option value="pl">Pleno</option>
+<option value="sn">Senior</option>
+       </select>
+    </div>
+    <fieldset class="grupo">
+        <div id="check">
+            <label for="tech"> <strong> Tecnologias Utilizadas</strong></label>
+            <input type="checkbox" id="tech1" name="tech1" value="HTML">
+            <label for="HTML">HTML</label>
+            <input type="checkbox" id="tech2" name="tech2" value="CSS">
+            <label for="HTML">CSS</label>
+            <input type="checkbox" id="tech3" name="tech3" value="Java">
+            <label for="HTML">Java</label>
+            <input type="checkbox" id="tech4" name="tech4" value="PHP">
+            <label for="HTML">PHP</label>
+            <input type="checkbox" id="tech5" name="tech5" value="Python">
+            <label for="HTML">Python</label>
+            <input type="checkbox" id="tech6" name="tech6" value="JS">
+            <label for="HTML">JavaScript</label>
+            <input type="checkbox" id="tech7" name="tech7" value="Kotlin">
+            <label for="HTML">Kotlin</label>
+
+        </div>
+    </fieldset>
+    <div>
+<br>
+<label for="exp"><strong> Conte sua Experiencia:</strong> </label>
+<textarea name="experiencia" id="experiencia" cols="30" rows="6"></textarea>
+    </div>
+    <button class="botao" type="submit">Concluido</button>
+
+
+</body>
+</html>

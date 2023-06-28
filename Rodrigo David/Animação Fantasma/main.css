@@ -1,0 +1,86 @@
+/*Menu*/
+ul {
+    
+    width:100%; 
+    float:left; 
+    text-align:; 
+
+}
+
+li {
+
+    padding-right: 20px;
+    display: inline-block;
+    list-style:none;
+
+}
+
+li .mymenu {
+
+   font-family: 'open_sansbold';
+   font-size:1.6em;
+   text-decoration: none;
+   color:#4c4c4c;
+   -webkit-border-box: 0 1px 0 0 #4c4c4c;
+   border-bottom: 4px solid transparent;
+   -webkit-transition: border-bottom .3s linear;
+
+}
+
+li .mymenu:hover {
+    
+    border-bottom:4px solid #0086fc;
+}
+
+/*Menu*/
+
+
+body {
+	height: 100vh;
+	margin: 0;
+	display: grid;
+	place-items: center;
+	background: rgb(19, 24, 17);
+	background: linear-gradient(to top, indigo, black 50%);
+	cursor: none;
+	overflow: hidden;
+}
+
+.boo {
+	position: absolute;
+	font-size: 12rem;
+	margin: auto;
+	transform: translate(-50%, -50%);
+	opacity: 0.25;
+	filter: blur(2px) drop-shadow(0 0 25px rgb(255, 255, 255));
+	animation: boo 3s linear infinite;
+}
+@keyframes boo {
+	50% {
+		opacity: 0.05;
+	}
+}
+
+.layer {
+	position: fixed;
+	inset: 0;
+}
+
+.back {
+	background: url("https://contentservice.mc.reyrey.net/image_v1.0.0/?id=15564d3c-abca-50b6-9bfc-59b21d3ac0e1&637832157145053633");
+	background-size: 100vw 100vh;
+	background-repeat: repeat-x;
+	animation: back 20s linear infinite;
+}
+@keyframes back {
+	100% {
+		background-position: -100vw 0;
+	}
+}
+.front {
+	background: radial-gradient(transparent, black 75%),
+		url("https://contentservice.mc.reyrey.net/image_v1.0.0/?id=691a04a3-8ae5-5fc4-838f-3da7e46e9901&637832156592240366");
+	background-size: 100% 100%;
+}
+
+

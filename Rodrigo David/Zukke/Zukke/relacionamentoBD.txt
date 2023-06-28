@@ -1,0 +1,7 @@
+Relacionamento de banco de Dados 
+clientes>
+Nome 
+Telefone
+Rg 
+Data Nasciemento 
+Lista Vip 
