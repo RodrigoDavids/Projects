@@ -7,7 +7,8 @@ Eu sou Rodrigo estudante e desenvolvedor de sistemas e projetos
 * Redes De Computadores – Fundação Bradesco (2020)
 * Gestão de T.I –Fundação Getúlio Vargas (2020)
 
-* São Paulo , Brasil  
+* São Paulo , Brasil
+* [![Netlify Status](https://api.netlify.com/api/v1/badges/04bd18db-b52c-4f95-96f5-2ecb06830d9b/deploy-status)](https://app.netlify.com/sites/davidsdeev/deploys)
 
 <div align="center"/>
   <a href="https://github.com/RodrigoDavids/Projetos.git">
