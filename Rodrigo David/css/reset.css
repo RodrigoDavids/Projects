@@ -27,12 +27,13 @@ textarea{padding: 10px; width: 100%;}
 input.btn{width: auto; cursor: pointer;}
 
 /*vai ser a box de controle*/
-.container { float:left; width:100%; background-color:#e9ecf0; }
+.container { float:left; width:100%; 
+    background-color:#ffffff; }
 .clear     { clear:both; }
-.fontzero  { font-size:0; }
+.fontzero  { font: size 10px;; }
 
 /*È uma Seção de Titulo */
-.section_title{ font-size: 1em; text-align: center; color: #333; }
+.section_title{ font-size: 1em; text-align: center; color: #000000; }
 
 @font-face {
     font-family: 'open_sansbold';

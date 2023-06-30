@@ -2,7 +2,7 @@
 
 
 /*HEADER*/
-.main_header          { background:#f6f6f6; border-bottom:1px #f8f7f7 solid; z-index:1; padding: 0.5em 0em; }
+.main_header          { background:#ffffff; border-bottom:1px #ffffff solid; z-index:1; padding: 0.5em 0em; }
 .main_header .content { float:left; padding:0px 0; }
 
 .fixed            { display:block; position:fixed; z-index:9;  }
@@ -301,7 +301,7 @@ position: absolute
   padding: 10px 0 13px 55px;
   font-family: "Open Sans", sans;
   font-weight: 400;
-  color: #ff0000;
+  color: #000000;
   background: #fbf8f8;
   border: 0;
   border-radius: 3px;
@@ -362,7 +362,7 @@ position: absolute
 /*BotÃĢo*/
 .btn-submit {
 
-  color: #04eb17;
+  color: #f8fbf8;
   background: #000000;
   cursor: pointer;
   border: none;
@@ -378,7 +378,7 @@ position: absolute
 
 .btn-submit:hover {
  
-  background-color:#034040;
+  background-color:#4907d8;
 
 }
 
@@ -390,7 +390,7 @@ position: absolute
 .main_footer_copy p     { font-family:'open_sanslight'; font-size:1em; color:#37dc12; height:20px; }
 .main_footer_copy .m-b-footer   { margin-bottom:1em; }
 .main_footer_copy .by   { font-size:0.96em; }
-.main_footer_copy .by i { font-size:0.96em; margin-right:3px; color:#fe0303; }
+.main_footer_copy .by i { font-size:0.96em; margin-right:3px; color:#000000; }
 
 
 
