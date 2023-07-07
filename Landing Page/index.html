@@ -1,49 +1,142 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name ="description" content="descrição do site ">
-    <title>Landing Page </title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name ="description" content="descrição do site ">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Justo&family=Roboto:wght@500&family=Sarala&display=swap'); 
+    
+    
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    }
+     body{
+    
+        font-size: 100%;
+      color: rgb(255, 255, 255);
+      background: linear-gradient(#dd6767,#472c2c); 
+    }
+      .cabecalho  {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        padding: 24px;
+        
+    }
+
+    .logo{
+        height: 150px; 
+    }
+
+.menu{
+display: flex;
+gap: 30px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.menu-item{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 247, 4);
+    font-weight: 400;
+    font-size: 20px;
+}
+.conteudo{
+    border-top: 0.4px solid #FFF2E7;
+    margin-bottom: 48px;
+}
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    }
+    .conteudo-escrito{
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+            }
+.conteudotitulo{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 70px;
+    color: #FFF2e7;
+}
+.subconteudo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+}
+.botaoconteudo{
+    background-color: #ECD6c4;
+    width: 180px;
+    height: 85;
+}
+
+
+
+
+
+          </style>
+        <title>Landing Page </title>
+       
+    </head> 
 <body>
-    <header>
-         <img class="logo " src="Logo.png" alt="logo">
-         <nav>
-            <a href="">Comunidade</a>
-            <a href="">Teste</a>
-            <a href="">teste1</a>
-            <a href="">teste3</a>
-
-
-
-
-         </nav>
+    
+    <header class="cabecalho">
+         <img class="logo " src="Logo.png" alt="logo" >
+         <nav class="menu">
+            <a class="menu-item" href="">Comunidade</a>
+            <a class="menu-item"href="">Teste</a>
+            <a class="menu-item" href="">teste1</a>
+            <a  class="menu-item"href="">teste3</a>
+        </nav>
     </header>
 
-    <main>
-        <section>
-            <div>
-                <h1>Crepe Creck </h1>
-                <h2>Venha se deliciar com sabores muitos Magicos ! </h2>
-                <button>Me Adicione </button>
+    <main class="conteudo">
+        <section class="conteudo-principal">
+            <div class="conteudo-escrito">
+                <h1 class="conteudotitulo">Crepe Creck </h1>
+                <h2 class="subconteudo">Venha se deliciar com sabores muitos Magicos ! </h2>
+                <button class="botaoconteudo">Me Adicione </button>
             </div>
-            <img src="cre.jpg" alt="">
+            <img class="logo-conteudo" src="cre.jpg" alt="">
 
 
         </section>
 
-        <section>
-                <h3>Porque Crepe No Seu Evento ? </h3>
-                <p>Os <strong>Melhores sabores em seu Evento</strong> </p>
-                <p>Não <strong>deixa Fumaça Ou Cheiro</strong> !!</p>
-                <p><strong> Pratico e Facil, 5 Horas</strong> de Eventos </p>
+        <section class="conteudo-segundo">
+                <h3 class="titulo-conteudo-segundo">Porque Crepe No Seu Evento ? </h3>
+                <p class="paragrafo-segundo">Os <strong>Melhores sabores em seu Evento</strong> </p>
+                <p class="paragrafo-segundo"> Não <strong>deixa Fumaça Ou Cheiro</strong> !!</p>
+                <p class="paragrafo-segundo"> <strong> Pratico e Facil, 5 Horas</strong> de Eventos </p>
         </section>
 
     </main>
 
-    <footer>
+     
+      
 
-    </footer>
+<footer class="main_footer container">
+    <div class="main_footer_copy">
+
+        <p class="m-b-footer"> Davids.desenvolvedor@gmail.com</p> 
+        <p class="by"><i class="icon icon-heart-3"></i> Desenvolvido por: Davids Mitnick</p>
+
+        <div style="display: inline-block"><br>
+            <img align="center" alt="RodrigoCSS" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" />
+                                  <img align="center" alt="RodrigoCSS" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" />
+                       <img align="center" alt="RodrigoCSS" height="30" width="40"
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                       <img align="center" alt="RodrigoCSS" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" />
+                      <img align="center" alt="RodrigoCSS" height="30" width="40"src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" />
+                      <img align="center" alt="RodrigoCSS" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg" />
+                      <img align="center" alt="RodrigoCSS" height="30" width="40"src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
+                      <img align="center" alt="RodrigoCSS" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" />
+                <img align="center" alt="RodrigoCSS" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" />        
+                      </div>
 </body>
 </html>
