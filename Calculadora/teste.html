@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculadora Basica</title>
+    <script type="text/javascript">
+        function soma(){
+            var numero1 = parseInt(document.getElementById('n1').value);
+            var numero2 = parseInt(document.getElementById('n2').value);
+            var resultado = numero1 + numero2;
+            document.getElementById('result').value = resultado;
+        }
+        function subs(){
+            var numero1 = parseInt(document.getElementById('n1').value);
+            var numero2 = parseInt(document.getElementById('n2').value);
+            var resultado = numero1 - numero2;
+            document.getElementById('result').value = resultado;
+        }
+        function multi(){
+            var numero1 = parseInt(document.getElementById('n1').value);
+            var numero2 = parseInt(document.getElementById('n2').value);
+            var resultado = numero1 * numero2;
+            document.getElementById('result').value = resultado;
+        }
+        function divis(){
+            var numero1 = parseInt(document.getElementById('n1').value);
+            var numero2 = parseInt(document.getElementById('n2').value);
+            var resultado = numero1 / numero2;
+            document.getElementById('result').value = resultado;
+        }
+
+        window.onload = function(){
+            alert("Calculadora. Seja Bem vindo - Teste de Alert");
+        }
+    </script>
+</head>
+<body>
+            <form>
+                <div style="text-align:center; ">
+                    Calculadora Basica
+                    <br>
+                    <input type="number" name="n1" id="n1">
+                    <input type="button" value="+" onclick="soma();">
+                    <input type="button" value="-" onclick="subs();">
+                    <input type="button" value="x" onclick="multi();">
+                    <input type="button" value="/" onclick="divis();">      
+                    <input type="number" name="n2" id="n2">
+                    =
+                    <input type="number" name="resultado" id="result" >
+
+
+                </div>
+            </form>
+        </body>
+        </html>
