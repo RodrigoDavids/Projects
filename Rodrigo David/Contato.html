@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="pt-br">
     
-	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/reset.css"> 
 	<link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/fonts-icones.css">
+    <link rel="stylesheet" type="text/css" href="contact.css">
+    
     <link rel="shortcut icon" href="img/logo.png"/>
 
     <title></Contact DavidsDeev/></title>
@@ -37,57 +39,47 @@
                       <li><a href="port.html" class="mymenu" title="Portfolio"><i class="icon icon-code"></i>Portifolio</a></li>
                       <li><a href="Contato.html" class="mymenu" title="Contato"><i class="icon icon-code"></i>Contato</a></li>
                     </ul>
+                    <main class="main-contact">
+                        <form class="form-contact">
+                            <label class="entry-label" for="name">Nome Completo</label>
+                            <input class="entry" type="text" name="" id="name" required>
+                
+                            <label class="entry-label" for="email">Email</label>
+                            <input class="entry" type="email" name="" id="email" required>
+                
+                            <label class="entry-label" for="phone">Número para contato</label>
+                            <input class="entry" type="tel" name="" id="phone" required>
+                
+                            <label class="entry-label" for="message">Deixe aqui sua mensagem</label>
+                            <textarea class="entry" name="" id="message" cols="30" rows="10"></textarea>
+                
+                            <div class="div-entry">
+                                <p class="entry-label"> Como prefere nosso contato?</p>
+                                <label class="entry-label" for="email-choice"><input type="radio" name="contact-choice"
+                                        id="email-choice">Email</label>
+                
+                                <label class="entry-label" for="phone-choice"><input type="radio" name="contact-choice"
+                                        id="phone-choice">Telefone</label>
+                
+                                <label class="entry-label" for="whatsapp-choice" lang="en"><input type="radio" name="contact-choice"
+                                        id="whatsapp-choice">Whatsapp</label>
+                            </div>
+                            <label class="entry-label" for="day-period">Em qual horário prefere ser atendido?</label>
+                            <select class="entry" name="day-period" id="">
+                                <option value="none">---Selecione aqui</option>
+                                <option value="morning">Manhã</option>
+                                <option value="afternoon">Tarde</option>
+                                <option value="evening">Noite</option>
+                            </select>
+                
+                            <label for="check-mailing" class="entry-label" id="checkbox">Gostaria de receber nossas novidades por email?
+                                <input type="checkbox" name="" id="check-mailing"></label>
+                
+                            <input class="entry" type="submit" value="Enviar formulário">
+                        </form>
+                    </main>
     
-    
-                </div><!--Box Artigo-->
-
-                <main class="main_content container">
-                    <div class="box-formulario">        
-                      <div class="formulario">
-                                
-                                
-
-                <div class="box-title">
-                    <h2 class="title">Contato
-                      <p class="subtitle">send me a message here</p>
-                    </h2>
-                  </div>
-      
-                  <form action="#" method="post">
-                           
-      
-                      <span>
-                          <input type="text" class="input-card" id="nome" name="nome" placeholder="Name" required=""/>
-                          <label for="nome"> <i class="icon icon-user-outline"></i> </label>
-                      </span>
-      
-                      <span>
-                          <input type="text" class="input-card" id="email" name="email" placeholder="E-mail" required=""/>
-                          <label for="email"> <i class="icon icon-mail-3"></i> </label>
-                      </span>
-      
-                      <span>
-                          <input type="number" class="input-card" id="assunto" name="Telefone" placeholder="telephone" required=""/>
-                          <label for="assunto"> <i class="icon icon-phone"></i> </label>
-                      </span>
-      
-                      <span>
-                          <textarea type="text" class="textarea-card" id="mensagem" name="mensagem" rows="3" placeholder="message" required=""></textarea>
-                          <label for="mensagem"> <i class="icon icon-bubble-4"></i> </label>
-                      </span>
-      
-                      <div class="box-pulse">
-                           <input type="submit" value="Send Message" class="btn-submit">
-                      </div>
-      
-                  </form>
-      
-              </div>
-      
-          </div><!--Box Formulario-->    
-      
-      </main>
-  </section>
+              
 
    
       

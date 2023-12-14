@@ -1,18 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>obrigado</title>
+    <title>Contatos - Barbearia Alura</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
 </head>
+
 <body>
-    
-<h1>Obrigado pelo contato </h1>
-<p>em breve entrarei em contato /p>
-    <a href="index.html">Home</a>
-    
+    <header class="header">
+        <h1 class="logo"><img src="logo.png" alt=""></h1>
+        <nav class="navigation">
+            <ul>
+                <li><a href="index.html" class="nav-links">Home</a></li>
+                <li><a href="products.html" class="nav-links">Produtos</a></li>
+                <li><a href="contact.html" class="nav-links">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main-contact">
+        <form class="form-contact">
+            <label class="entry-label" for="name">Nome Completo</label>
+            <input class="entry" type="text" name="" id="name" required>
 
+            <label class="entry-label" for="email">Email</label>
+            <input class="entry" type="email" name="" id="email" required>
 
+            <label class="entry-label" for="phone">Número para contato</label>
+            <input class="entry" type="tel" name="" id="phone" required>
+
+            <label class="entry-label" for="message">Deixe aqui sua mensagem</label>
+            <textarea class="entry" name="" id="message" cols="30" rows="10"></textarea>
+
+            <div class="div-entry">
+                <p class="entry-label"> Como prefere nosso contato?</p>
+                <label class="entry-label" for="email-choice"><input type="radio" name="contact-choice"
+                        id="email-choice">Email</label>
+
+                <label class="entry-label" for="phone-choice"><input type="radio" name="contact-choice"
+                        id="phone-choice">Telefone</label>
+
+                <label class="entry-label" for="whatsapp-choice" lang="en"><input type="radio" name="contact-choice"
+                        id="whatsapp-choice">Whatsapp</label>
+            </div>
+            <label class="entry-label" for="day-period">Em qual horário prefere ser atendido?</label>
+            <select class="entry" name="day-period" id="">
+                <option value="none">---Selecione aqui</option>
+                <option value="morning">Manhã</option>
+                <option value="afternoon">Tarde</option>
+                <option value="evening">Noite</option>
+            </select>
+
+            <label for="check-mailing" class="entry-label" id="checkbox">Gostaria de receber nossas novidades por email?
+                <input type="checkbox" name="" id="check-mailing"></label>
+
+            <input class="entry" type="submit" value="Enviar formulário">
+        </form>
+    </main>
+    <footer class="footer">
+        <img src="logo-branco.png" alt="">
+        <p class="copyright">&copy; Copyright Barbearia Alura - 2021</p>
+    </footer>
 </body>
+
 </html>

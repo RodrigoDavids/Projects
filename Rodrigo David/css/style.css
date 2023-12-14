@@ -204,27 +204,16 @@ position: absolute
 
 }
 
-.formulario {
-
-    width: 700px;
-    background: #000000;
-    padding: 60px 5%;
-    text-align: center;
-
-}
-
-
 .formulario span {
-  position: relative;
-  display: flex;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  padding: 5px;
-  margin: 45px 10px;
-  border-radius: 25px;
-
+  /* Apenas para centralizar o form na página */
+  margin: 0 auto;
+  width: 400px;
+  /* Para ver as bordas do formulário */
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
 }
+
 
 /*input Animado*/
 
@@ -445,4 +434,28 @@ position: absolute
 /*1600PX BREAKPOINT*/
 /*1600 dividido por 16 = 100em*/
 @media (min-width:100em)
+}
+{}
+.circle {
+        width: 200px;
+        height: 200px;
+        border-radius: 100%;
+        overflow: hidden;
+        float: right;
+        margin-left: 10px;
+    }
+    .circle img {
+        width: 100%;
+        height: auto;
+    }
+    .text {
+        float: right;
+        width: calc(100% - 220px);
+    }
+
+    .bem-vindo , .davids-dev {
+      visibility:hidden
+      
+
+    }
 
